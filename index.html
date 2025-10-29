@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Home | Charme CWB</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Great+Vibes&display=swap" rel="stylesheet">
+
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body class="min-h-screen w-full p-4">
+
+    <div id="home-card-container" class="card-container relative w-full max-w-6xl rounded-3xl p-8 text-white z-10 mx-auto">
+
+        <nav class="flex flex-col sm:flex-row items-center justify-between gap-4 mb-8">
+
+            <a href="index.html" class="font-logo text-4xl text-white" style="font-family: 'Great Vibes', cursive;">
+                Charme CWB!
+            </a>
+
+            <ul class="flex flex-wrap justify-center items-center gap-6">
+                <li>
+                    <a href="index.html" class="text-white font-semibold">Home</a>
+                </li>
+                <li>
+                    <a href="eventos.html" class="text-gray-400 hover:text-white transition-colors">Eventos</a>
+                </li>
+                <li>
+                    <a href="galeria.html" class="text-gray-400 hover:text-white transition-colors">Galeria</a>
+                </li>
+                <li>
+                    <a href="#" class="text-gray-400 hover:text-white transition-colors">Sobre</a>
+                </li>
+                <li>
+                    <a href="#" class="text-gray-400 hover:text-white transition-colors">Contato</a>
+                </li>
+            </ul>
+
+            <a href="login.html" class="btn-primary w-full sm:w-auto font-semibold py-2 px-6 rounded-lg text-center">
+                Login
+            </a>
+        </nav>
+
+        <div class="border-t border-gray-700"></div>
+
+        <section class="text-center py-24 md:py-32">
+
+            <h1 class="text-4xl md:text-6xl font-bold tracking-tight mb-4">
+                Uma Original Festa PRETA! ✊🏾
+            </h1>
+            <p class="text-lg md:text-xl text-gray-400 max-w-2xl mx-auto mb-10">
+                Espaço de protagonismo 100% PRETO, para os nossos se sentirem pertencentes.
+            </p>
+
+            <div class="flex flex-col sm:flex-row justify-center gap-4">
+                <a href="eventos.html" class="btn-primary w-full sm:w-auto font-semibold py-3 px-8 rounded-lg text-center">
+                    <span class="flex items-center justify-center gap-2">
+                        <i data-lucide="calendar-heart" class="w-5 h-5"></i>
+                        Próximos Eventos
+                    </span>
+                </a>
+
+                <a href="galeria.html" class="form-input w-full sm:w-auto font-semibold py-3 px-8 rounded-lg text-gray-300 hover:border-red-500 transition text-center">
+                    <span class="flex items-center justify-center gap-2">
+                        <i data-lucide="camera" class="w-5 h-5"></i>
+                        Nossa Galeria
+                    </span>
+                </a>
+            </div>
+        </section>
+
+        <div class="border-t border-gray-700 mt-8 pt-6 text-center text-xs text-gray-500">
+             <div id="credits-text-wrapper" class="flex items-center justify-center gap-2 mb-3">
+                <span><span data-translate-key="credits_text">Criado e desenvolvido por</span> <strong class="text-white font-semibold">Pablo Rosa Gomes</strong></span>
+                 <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer" title="Visite o Instagram" class="hover:opacity-80 transition-opacity">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" role="img" aria-labelledby="instagram-logo"><title id="instagram-logo">Instagram</title><defs><radialGradient id="ig-grad" gradientUnits="userSpaceOnUse" cx="8.982" cy="1.31" r="21.554"><stop offset="0" stop-color="#fd5"/><stop offset=".1" stop-color="#fd5"/><stop offset=".5" stop-color="#ff543e"/><stop offset="1" stop-color="#c837ab"/></radialGradient></defs><path fill="url(#ig-grad)" d="M12 0C8.74 0 8.333.015 7.053.072 5.775.132 4.905.333 4.14.63c-.784.305-1.457.717-2.126 1.387C1.344 2.686.932 3.36.627 4.144c-.3.765-.5 1.636-.56 2.913-.06 1.28-.073 1.685-.073 4.94 0 3.255.013 3.66.072 4.94.06 1.277.26 2.148.56 2.913.306.783.718 1.457 1.387 2.126.67.67 1.343 1.082 2.127 1.387.765.3 1.636.5 2.913.56 1.28.058 1.685.073 4.94.073 3.255 0 3.66-.015 4.94-.073 1.277-.06 2.148-.26 2.913-.56.783-.305 1.457-.717 2.126-1.387.67-.67 1.082-1.343 1.387-2.127.3-.765.5-1.636.56-2.913.058-1.28.073-1.685.073-4.94s-.015-3.66-.073-4.94c-.06-1.277-.26-2.148-.56-2.913-.305-.784-.717-1.457-1.387-2.126C21.314 1.344 20.64.932 19.856.627c-.765-.3-1.636-.5-2.913-.56C15.667.015 15.26 0 12 0zm0 2.16c3.203 0 3.585.01 4.85.07 1.17.055 1.805.248 2.227.415.562.217.96.477 1.382.896.419.42.68.819.896 1.383.168.42.36 1.057.413 2.227.06 1.265.073 1.646.073 4.85s-.013 3.585-.073 4.85c-.055 1.17-.248 1.805-.413 2.227a3.48 3.48 0 0 1-.896 1.383c-.42.419-.82.68-1.382.896-.42.168-1.057.36-2.227.413-1.265.06-1.646.073-4.85.073s-3.585-.013-4.85-.073c-1.17-.055-1.805-.248-2.227-.413a3.48 3.48 0 0 1-1.383-.896c-.419-.42-.68-.82-.896-1.382-.168-.42-.36-1.057-.413-2.227-.06-1.265-.073-1.646-.073-4.85s.013-3.585.073-4.85c.055-1.17.248 1.805.413 2.227.217-.562.477-.96.896-1.383.42-.419.819-.68 1.383-.896.42-.168 1.057.36 2.227.413C8.415 2.173 8.797 2.16 12 2.16zm0 1.583c-3.535 0-6.44 2.895-6.44 6.44s2.905 6.44 6.44 6.44 6.44-2.895 6.44-6.44-2.905-6.44-6.44-6.44zm0 10.74c-2.37 0-4.298-1.928-4.298-4.3s1.928-4.3 4.298-4.3 4.298 1.928 4.298 4.3-1.928 4.3-4.298 4.3zm6.406-11.845c-.796 0-1.44.645-1.44 1.44s.645 1.44 1.44 1.44 1.44-.645 1.44-1.44-.644-1.44-1.44-1.44z"/></svg>
+                 </a>
+             </div>
+             <div class="relative inline-block mb-3">
+                  <button id="language-selector-btn" class="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
+                      <i data-lucide="globe" class="w-4 h-4"></i>
+                      <span id="current-language">Português (Brasil)</span>
+                  </button>
+                  <div id="language-selector-list" class="hidden absolute bottom-full mb-2 left-1/2 -translate-x-1/2 w-48 rounded-lg z-20 text-left">
+                      <ul class="p-1 text-sm">
+                          <li><a href="#" class="block px-3 py-1.5 hover:bg-gray-600/50 rounded" data-lang="pt-BR">Português (Brasil)</a></li>
+                          <li><a href="#" class="block px-3 py-1.5 hover:bg-gray-600/50 rounded" data-lang="pt-PT">Português (Portugal)</a></li>
+                          <li><a href="#" class="block px-3 py-1.5 hover:bg-gray-600/50 rounded" data-lang="en-US">English</a></li>
+                          <li><a href="#" class="block px-3 py-1.5 hover:bg-gray-600/50 rounded" data-lang="es-ES">Español</a></li>
+                      </ul>
+                  </div>
+             </div>
+             <p data-translate-key="footer_disclaimer">Produto fictício sem fins lucrativos.</p>
+             <p data-translate-key="footer_copyright">&copy; 2025 Todos os direitos reservados.</p>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+</html>
